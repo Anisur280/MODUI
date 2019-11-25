@@ -1,0 +1,19 @@
+<div class="topnav" id="myTopnav">
+    <a routerLink="home" class="active">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <div class="dropdown">
+      <button class="dropbtn">SignUp
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content justify-content:right" >
+        <a routerLink="UserSignUp">User</a>
+        <a routerLink="MentorSignUp">Mentor</a> 
+      </div>
+    </div>
+    <a routerLink="Login">Login</a>
+  </div>
+
+
+
+<router-outlet></router-outlet>
